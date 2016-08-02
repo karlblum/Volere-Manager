@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="blank" Class="Blank" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="Conflicts">
+    <Type Name="Conflicts">
+      <Column Name="id" Member="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="req_id1" Member="Req_id1" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="req_id2" Member="Req_id2" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="Req_Conflicts" Member="Req" ThisKey="Req_id1" OtherKey="Id" Type="Req" IsForeignKey="true" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Req">
+    <Type Name="Req">
+      <Column Name="id" Member="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="type_id" Member="Type_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="description" Member="Description" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="rationale" Member="Rationale" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="originator_id" Member="Originator_id" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="fit_criterion" Member="Fit_criterion" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="satisfaction" Member="Satisfaction" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="dissatisfaction" Member="Dissatisfaction" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="priority" Member="Priority" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="created" Member="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modified" Member="Modified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="use_cases" Member="Use_cases" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Association Name="Req_Conflicts" Member="Conflicts" ThisKey="Id" OtherKey="Req_id1" Type="Conflicts" />
+      <Association Name="Req_Req_Resources" Member="Req_Resources" ThisKey="Id" OtherKey="Req_id" Type="Req_Resources" />
+      <Association Name="Req_Types_Req" Member="Req_Types" ThisKey="Type_id" OtherKey="Id" Type="Req_Types" IsForeignKey="true" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Req_Resources">
+    <Type Name="Req_Resources">
+      <Column Name="req_id" Member="Req_id" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="resources_id" Member="Resources_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id" Member="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="Req_Req_Resources" Member="Req" ThisKey="Req_id" OtherKey="Id" Type="Req" IsForeignKey="true" DeleteOnNull="true" />
+      <Association Name="Resources_Req_Resources" Member="Resources" ThisKey="Resources_id" OtherKey="Id" Type="Resources" IsForeignKey="true" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="Req_Types">
+    <Type Name="Req_Types">
+      <Column Name="id" Member="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nr" Member="Nr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="subNr" Member="SubNr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="name" Member="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="contents" Member="Contents" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="used" Member="Used" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Req_Types_Req" Member="Req" ThisKey="Id" OtherKey="Type_id" Type="Req" />
+    </Type>
+  </Table>
+  <Table Name="Resources">
+    <Type Name="Resources">
+      <Column Name="id" Member="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="description" Member="Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Association Name="Resources_Req_Resources" Member="Req_Resources" ThisKey="Id" OtherKey="Resources_id" Type="Req_Resources" />
+    </Type>
+  </Table>
+</Database>

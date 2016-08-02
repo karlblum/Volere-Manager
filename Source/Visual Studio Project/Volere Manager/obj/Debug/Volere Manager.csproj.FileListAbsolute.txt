@@ -1,0 +1,40 @@
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\Volere Manager.exe
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\Volere Manager.pdb
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormMain.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.Properties.Resources.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere Manager.csproj.GenerateResource.Cache
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere Manager.exe
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere Manager.pdb
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormReqManager.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormReq.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormAdvisor.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormReqManagerFilters.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\Volere Manager.exe.config
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\blank.sdf
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.NewWizard.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormTypesManager.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormAbout.resources
+d:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormTypesSearch.resources
+D:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormPreview.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\Volere Manager.exe.config
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere Manager.exe
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere Manager.pdb
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\blank.sdf
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\Volere Manager.exe
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\Volere Manager.pdb
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\ResolveAssemblyReference.cache
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormAbout.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormAdvisor.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormMain.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormPreview.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormReq.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormReqManager.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormReqManagerFilters.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormTypesSearch.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.FormTypesManager.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.NewWizard.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere_Manager.Properties.Resources.resources
+C:\Study\Devel\C#\baka\Volere Manager\Volere Manager\obj\Debug\Volere Manager.csproj.GenerateResource.Cache

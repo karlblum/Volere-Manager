@@ -1,0 +1,40 @@
+[OPTIONS]
+Language=0x409 English (United States)
+Default Font=Arial,8,0
+TITLE=Volere manager
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=Yes
+Default Window=Main
+Compiled file=volere_manager.chm
+Error Log file=volere_manager.log
+Contents file=volere_manager.hhc
+Index File=volere_manager.hhk
+Default Topic=AboutMe.html
+
+[FILES]
+AboutMe.html
+CreatingProject.html
+CreatingRequirement.html
+TypesManager.html
+RequirementsFilter.html
+
+
+
+
+[WINDOWS]
+Main="Volere manager","volere_manager.hhc","volere_manager.hhk","AboutMe.html","AboutMe.html",,,,,0x61520,200,0x304e,[9,9,566,600],0x307e,,,,,,0
+Popup="Popup","volere_manager.hhc","volere_manager.hhk","AboutMe.html","AboutMe.html", ,,,,0x00061520,200, 0x0000304E,[9,9,566,600],0x307e,,,,,,0
+
+
+[MAP]
+#include volere_manager.h
+
+
+
+[TEXT POPUPS]
+CSHelp.txt
+
+
